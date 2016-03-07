@@ -97,11 +97,101 @@ namespace StringResourceLocalization.Strings {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Resource Localização Exemplo.
+        /// </summary>
+        public static string MainWindowTitle {
+            get {
+                return ResourceManager.GetString("MainWindowTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Medir o progresso de programação por linhas de código é como medir o progresso aeronaves edifício em peso..
         /// </summary>
         public static string MeasuringProgress {
             get {
                 return ResourceManager.GetString("MeasuringProgress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Visão.
+        /// </summary>
+        public static string MeniView {
+            get {
+                return ResourceManager.GetString("MeniView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Adicionar....
+        /// </summary>
+        public static string MenuAdd {
+            get {
+                return ResourceManager.GetString("MenuAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fechar.
+        /// </summary>
+        public static string MenuClose {
+            get {
+                return ResourceManager.GetString("MenuClose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Editar.
+        /// </summary>
+        public static string MenuEdit {
+            get {
+                return ResourceManager.GetString("MenuEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Arquivo.
+        /// </summary>
+        public static string MenuFile {
+            get {
+                return ResourceManager.GetString("MenuFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Socorro.
+        /// </summary>
+        public static string MenuHelp {
+            get {
+                return ResourceManager.GetString("MenuHelp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Novo.
+        /// </summary>
+        public static string MenuNew {
+            get {
+                return ResourceManager.GetString("MenuNew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Aberto....
+        /// </summary>
+        public static string MenuOpen {
+            get {
+                return ResourceManager.GetString("MenuOpen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Janela.
+        /// </summary>
+        public static string MenuWindow {
+            get {
+                return ResourceManager.GetString("MenuWindow", resourceCulture);
             }
         }
         

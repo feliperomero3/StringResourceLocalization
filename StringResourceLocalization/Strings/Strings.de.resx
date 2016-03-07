@@ -129,8 +129,38 @@
   <data name="HelloWorld" xml:space="preserve">
     <value>Hallo Welt!</value>
   </data>
+  <data name="MainWindowTitle" xml:space="preserve">
+    <value>Ressourcenlokalisierung Beispiel</value>
+  </data>
   <data name="MeasuringProgress" xml:space="preserve">
     <value>Mess Programmierung Fortschritt durch Codezeilen  ist wie Messen Flugzeug Baufortschritt nach Gewicht.</value>
+  </data>
+  <data name="MenuAdd" xml:space="preserve">
+    <value>Und</value>
+  </data>
+  <data name="MenuClose" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="MenuEdit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="MenuFile" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="MenuNew" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>Aussicht</value>
+  </data>
+  <data name="MenuWindow" xml:space="preserve">
+    <value>Fenster</value>
   </data>
   <data name="SoftwareSlower" xml:space="preserve">
     <value>Software wird langsamer schneller als Hardware schneller wird.</value>

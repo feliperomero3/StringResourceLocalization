@@ -37,7 +37,7 @@
 
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition />
+                <ColumnDefinition Width="145"/>
                 <ColumnDefinition />
                 <ColumnDefinition Width="135"/>
             </Grid.ColumnDefinitions>
@@ -53,18 +53,18 @@
             
             <Grid Grid.ColumnSpan="2">
                 <Menu>
-                    <MenuItem Header="File">
-                        <MenuItem Header="New">
-                            <MenuItem Header="New 1"></MenuItem>
+                    <MenuItem Header="{x:Static s:Strings.MenuFile}">
+                        <MenuItem Header="{x:Static s:Strings.MenuNew}">
+                            <MenuItem Header="- - -"></MenuItem>
                         </MenuItem>
-                        <MenuItem Header="Open..."></MenuItem>
-                        <MenuItem Header="Add..."></MenuItem>
-                        <MenuItem Header="Close"></MenuItem>
+                        <MenuItem Header="{x:Static s:Strings.MenuOpen}"></MenuItem>
+                        <MenuItem Header="{x:Static s:Strings.MenuAdd}"></MenuItem>
+                        <MenuItem Header="{x:Static s:Strings.MenuClose}"></MenuItem>
                     </MenuItem>
-                    <MenuItem Header="Edit"></MenuItem>
-                    <MenuItem Header="View"></MenuItem>
-                    <MenuItem Header="Window"></MenuItem>
-                    <MenuItem Header="Help"></MenuItem>
+                    <MenuItem Header="{x:Static s:Strings.MenuEdit}"></MenuItem>
+                    <MenuItem Header="{x:Static s:Strings.MenuView}"></MenuItem>
+                    <MenuItem Header="{x:Static s:Strings.MenuWindow}"></MenuItem>
+                    <MenuItem Header="{x:Static s:Strings.MenuHelp}"></MenuItem>
                 </Menu>
             </Grid>
             
@@ -79,7 +79,7 @@
             </Grid>
 
             <Grid Grid.Row="1" Grid.ColumnSpan="2">
-                <TextBlock>Resource Localization Example</TextBlock>
+                <TextBlock Text="{x:Static s:Strings.MainWindowTitle}"></TextBlock>
             </Grid>
             
             <Grid Grid.Row="2" Grid.RowSpan="5">
