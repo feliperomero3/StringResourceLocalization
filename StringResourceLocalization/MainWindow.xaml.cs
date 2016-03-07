@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System.Globalization;
+using System.Threading;
+using System.Windows;
 
 namespace StringResourceLocalization
 {
@@ -9,6 +11,7 @@ namespace StringResourceLocalization
     {
         public MainWindow()
         {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("fr-FR");
             InitializeComponent();
         }
     }
