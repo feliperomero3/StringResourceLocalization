@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StringResourceLocalization {
+namespace StringResourceLocalization.Strings {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace StringResourceLocalization {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("StringResourceLocalization.Strings.pr", typeof(Strings_pr).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("StringResourceLocalization.Strings.Strings.pr", typeof(Strings_pr).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
