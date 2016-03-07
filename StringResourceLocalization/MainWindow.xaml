@@ -47,9 +47,6 @@
                     <Button>XYZ</Button>
                     <Button>XYZ</Button>
                     <Button>XYZ</Button>
-                    <Button>XYZ</Button>
-                    <Button>XYZ</Button>
-                    <Button>XYZ</Button>
                 </StackPanel>
             </Grid>
 
@@ -64,9 +61,6 @@
                     <TextBox Text="{x:Static s:Strings.FirstSolve}"></TextBox>
                     <TextBox Text="{x:Static s:Strings.CodeNeverLies}"></TextBox>
                     <TextBox Text="{x:Static s:Strings.SoftwareSlower}"></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
                 </StackPanel>
             </Grid>
         </Grid>
