@@ -58,12 +58,12 @@
                   Grid.RowSpan="5">
                 <StackPanel Margin="10 20">
                     <TextBox Text="{x:Static s:Strings.HelloWorld}"></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
-                    <TextBox></TextBox>
+                    <TextBox Text="{x:Static s:Strings.WhenInDoubt}"></TextBox>
+                    <TextBox Text="{x:Static s:Strings.EthernetWins}"></TextBox>
+                    <TextBox Text="{x:Static s:Strings.MeasuringProgress}"></TextBox>
+                    <TextBox Text="{x:Static s:Strings.FirstSolve}"></TextBox>
+                    <TextBox Text="{x:Static s:Strings.CodeNeverLies}"></TextBox>
+                    <TextBox Text="{x:Static s:Strings.SoftwareSlower}"></TextBox>
                     <TextBox></TextBox>
                     <TextBox></TextBox>
                     <TextBox></TextBox>

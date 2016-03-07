@@ -61,11 +61,65 @@ namespace StringResourceLocalization.Strings {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Code never lies, comments sometimes do..
+        /// </summary>
+        public static string CodeNeverLies {
+            get {
+                return ResourceManager.GetString("CodeNeverLies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ethernet always wins..
+        /// </summary>
+        public static string EthernetWins {
+            get {
+                return ResourceManager.GetString("EthernetWins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a First, solve the problem. Then, write the code..
+        /// </summary>
+        public static string FirstSolve {
+            get {
+                return ResourceManager.GetString("FirstSolve", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Hello, World!.
         /// </summary>
         public static string HelloWorld {
             get {
                 return ResourceManager.GetString("HelloWorld", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Measuring programming progress by lines of code is like measuring aircraft building progress by weight..
+        /// </summary>
+        public static string MeasuringProgress {
+            get {
+                return ResourceManager.GetString("MeasuringProgress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Software gets slower faster than hardware gets faster..
+        /// </summary>
+        public static string SoftwareSlower {
+            get {
+                return ResourceManager.GetString("SoftwareSlower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a When in doubt, reboot..
+        /// </summary>
+        public static string WhenInDoubt {
+            get {
+                return ResourceManager.GetString("WhenInDoubt", resourceCulture);
             }
         }
     }

@@ -61,11 +61,65 @@ namespace StringResourceLocalization.Strings {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Código nunca mente, comentários às vezes fazem..
+        /// </summary>
+        public static string CodeNeverLies {
+            get {
+                return ResourceManager.GetString("CodeNeverLies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ethernet sempre vence..
+        /// </summary>
+        public static string EthernetWins {
+            get {
+                return ResourceManager.GetString("EthernetWins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Em primeiro lugar, o problema a resolver. Em seguida, escrever o código..
+        /// </summary>
+        public static string FirstSolve {
+            get {
+                return ResourceManager.GetString("FirstSolve", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Olá Mundo!.
         /// </summary>
         public static string HelloWorld {
             get {
                 return ResourceManager.GetString("HelloWorld", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Medir o progresso de programação por linhas de código é como medir o progresso aeronaves edifício em peso..
+        /// </summary>
+        public static string MeasuringProgress {
+            get {
+                return ResourceManager.GetString("MeasuringProgress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Software fica mais lento mais rápido do hardware fica mais rápido..
+        /// </summary>
+        public static string SoftwareSlower {
+            get {
+                return ResourceManager.GetString("SoftwareSlower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Em caso de dúvida, reinicie..
+        /// </summary>
+        public static string WhenInDoubt {
+            get {
+                return ResourceManager.GetString("WhenInDoubt", resourceCulture);
             }
         }
     }

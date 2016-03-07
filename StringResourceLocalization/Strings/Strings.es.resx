@@ -117,7 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CodeNeverLies" xml:space="preserve">
+    <value>El código nunca miente, los comentarios a veces lo hacen.</value>
+  </data>
+  <data name="EthernetWins" xml:space="preserve">
+    <value>Ethernet siempre gana.</value>
+  </data>
+  <data name="FirstSolve" xml:space="preserve">
+    <value>En primer lugar, resolver el problema. A continuación, escribir el código.</value>
+  </data>
   <data name="HelloWorld" xml:space="preserve">
     <value>¡Hola Mundo!</value>
+  </data>
+  <data name="MeasuringProgress" xml:space="preserve">
+    <value>Medir el progreso de programación por líneas de código es como medir el progreso construcción de aviones por peso.</value>
+  </data>
+  <data name="SoftwareSlower" xml:space="preserve">
+    <value>El software se vuelve más lento más rápido de lo que el hardware se hace más rápido.</value>
+  </data>
+  <data name="WhenInDoubt" xml:space="preserve">
+    <value>En caso de duda, reiniciar el sistema.</value>
   </data>
 </root>
