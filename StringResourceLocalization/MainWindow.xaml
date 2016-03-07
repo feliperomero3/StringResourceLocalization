@@ -22,6 +22,16 @@
                 <Setter Property="Height"
                         Value="25"></Setter>
             </Style>
+            <Style TargetType="TextBlock">
+                <Setter Property="Margin"
+                        Value="15 20"></Setter>
+                <Setter Property="FontFamily"
+                        Value="Tahoma"></Setter>
+                <Setter Property="FontSize"
+                        Value="24"></Setter>
+                <Setter Property="Foreground"
+                        Value="SteelBlue"></Setter>
+            </Style>
         </Grid.Resources>
 
         <Grid>
@@ -36,9 +46,14 @@
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
+                <RowDefinition />
             </Grid.RowDefinitions>
 
-            <Grid Grid.RowSpan="5">
+            <Grid Grid.ColumnSpan="2">
+                <TextBlock>Resource Localization Example</TextBlock>
+            </Grid>
+            
+            <Grid Grid.Row="1" Grid.RowSpan="5">
                 <StackPanel Margin="10 20">
                     <Button>XYZ</Button>
                     <Button>XYZ</Button>
@@ -50,7 +65,8 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Column="1"
+            <Grid Grid.Row="1" 
+                  Grid.Column="1"
                   Grid.ColumnSpan="2"
                   Grid.RowSpan="5">
                 <StackPanel Margin="10 20">
