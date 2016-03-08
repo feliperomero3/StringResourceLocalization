@@ -135,9 +135,6 @@
   <data name="MeasuringProgress" xml:space="preserve">
     <value>Medir o progresso de programação por linhas de código é como medir o progresso aeronaves edifício em peso.</value>
   </data>
-  <data name="MeniView" xml:space="preserve">
-    <value>Visão</value>
-  </data>
   <data name="MenuAdd" xml:space="preserve">
     <value>Adicionar...</value>
   </data>
@@ -158,6 +155,9 @@
   </data>
   <data name="MenuOpen" xml:space="preserve">
     <value>Aberto...</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>Visão</value>
   </data>
   <data name="MenuWindow" xml:space="preserve">
     <value>Janela</value>

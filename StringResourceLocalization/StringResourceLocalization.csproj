@@ -74,10 +74,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="Strings\Strings.pr.Designer.cs">
+    <Compile Include="Strings\Strings.pt.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Strings.pr.resx</DependentUpon>
+      <DependentUpon>Strings.pt.resx</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -122,9 +122,9 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Strings\Strings.pr.resx">
+    <EmbeddedResource Include="Strings\Strings.pt.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.pr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings.pt.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings\Strings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

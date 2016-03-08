@@ -50,10 +50,10 @@ namespace StringResourceLocalization
 
         private void menuItemPr_Click(object sender, RoutedEventArgs e)
         {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("pt-BR");
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("pt-PT");
             ResetMainWindow();
 
-            Debug.Print("pt-BR");
+            Debug.Print("pt-PT");
         }
 
         private void ResetMainWindow()
