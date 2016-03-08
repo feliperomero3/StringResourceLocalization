@@ -37,12 +37,12 @@
 
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="145"/>
+                <ColumnDefinition Width="145" />
                 <ColumnDefinition />
-                <ColumnDefinition Width="135"/>
+                <ColumnDefinition Width="135" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="25"/>
+                <RowDefinition Height="25" />
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
@@ -50,7 +50,7 @@
                 <RowDefinition />
                 <RowDefinition />
             </Grid.RowDefinitions>
-            
+
             <Grid Grid.ColumnSpan="2">
                 <Menu>
                     <MenuItem Header="{x:Static s:Strings.MenuFile}">
@@ -67,22 +67,34 @@
                     <MenuItem Header="{x:Static s:Strings.MenuHelp}"></MenuItem>
                 </Menu>
             </Grid>
-            
+
             <Grid Grid.Column="2">
                 <Menu>
-                    <MenuItem Header="en"></MenuItem>
-                    <MenuItem Header="es"></MenuItem>
-                    <MenuItem Header="fr"></MenuItem>
-                    <MenuItem Header="de"></MenuItem>
-                    <MenuItem Header="pr"></MenuItem>
+                    <MenuItem x:Name="menuItemEn"
+                              Header="en"
+                              Click="menuItemEn_Click"></MenuItem>
+                    <MenuItem x:Name="menuItemEs"
+                              Header="es"
+                              Click="menuItemEs_Click"></MenuItem>
+                    <MenuItem x:Name="menuItemFr"
+                              Header="fr"
+                              Click="menuItemFr_Click"></MenuItem>
+                    <MenuItem x:Name="menuItemDe"
+                              Header="de"
+                              Click="menuItemDe_Click"></MenuItem>
+                    <MenuItem x:Name="menuItemPr"
+                              Header="pr"
+                              Click="menuItemPr_Click"></MenuItem>
                 </Menu>
             </Grid>
 
-            <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid Grid.Row="1"
+                  Grid.ColumnSpan="2">
                 <TextBlock Text="{x:Static s:Strings.MainWindowTitle}"></TextBlock>
             </Grid>
-            
-            <Grid Grid.Row="2" Grid.RowSpan="5">
+
+            <Grid Grid.Row="2"
+                  Grid.RowSpan="5">
                 <StackPanel Margin="10 20">
                     <Button>XYZ</Button>
                     <Button>XYZ</Button>
@@ -94,7 +106,7 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="2" 
+            <Grid Grid.Row="2"
                   Grid.Column="1"
                   Grid.ColumnSpan="2"
                   Grid.RowSpan="5">
